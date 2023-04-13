@@ -17,6 +17,9 @@ class CharacteriticVC: UIViewController {
     var service : CBService!
     var peripheral: CBPeripheral!
     
+    
+    // MARK: load View
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
